@@ -1,5 +1,9 @@
 # Solutions
 
+## LeetCode Link
+
+The problem can be found [here](https://leetcode.com/problems/two-sum/).
+
 ## Solution 1
 
 ### Solution 1: Explanation
