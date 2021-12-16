@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Code relating to [LeetCode](https://www.leetcode.com) solutions can be found here.
+Hi! My name is [Edgar](https://www.linkedin.com/in/edgar-loves-python),
+and in this repo, I post solutions to [LeetCode](https://www.leetcode.com)
+problems. Star the repo to stay up to date with my solutions!
 
 ## Structure
 
