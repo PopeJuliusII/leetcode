@@ -26,3 +26,24 @@ which indices to swap.
 `O(n)`, where `n` is the length of `nums`. The pointers
 start at opposing ends, and the function ends when they
 meet.
+
+## Solution 2
+
+### Solution 2: Explanation
+
+This solution iterates over `nums` and stores each number
+which is not equal to `val` at the start of the `list`,
+as designated by `idx`. Whilst this approach is cleaner
+than Solution 1, quite often it is important to maintain
+all elements in the `list`, and Solution 1 achieves this,
+whilst Solution 2 overwrites all indices which house `val`
+and are less than the number of non-`val` values in `nums`.
+
+### Solution 2: Space Complexity
+
+`O(1)`. This solution only uses a single pointer to keep
+track of which index to overwrite.
+
+### Solution 2: Time Complexity
+
+`O(n)`, where `n` is the length of `nums`.
