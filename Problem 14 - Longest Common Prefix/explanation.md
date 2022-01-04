@@ -9,7 +9,7 @@ The problem can be found [here](https://leetcode.com/longest-common-prefix/).
 ### Solution 1: Explanation
 
 This solution applies a depth first search,
-seeing how far each word in `strs` matched with
+seeing how far each word in `strs` matches with
 the longest word thus far. Note that `len(strs)`
 is always greater than 0.
 
@@ -42,7 +42,7 @@ return the length up to that point. Note that
 
 ### Solution 2: Space Complexity
 
-`O(n)`, where `n` is the length of `strs`.
+`O(l)`, where `l` is the length of `strs`.
 This is because we take the first letter of
 each word in `strs`, meaning that our space
 complexity will grow proportionally to an increase
