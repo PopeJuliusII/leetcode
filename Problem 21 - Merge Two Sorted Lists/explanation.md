@@ -9,7 +9,7 @@ The problem can be found [here](https://leetcode.com/problems/merge-two-sorted-l
 ### Solution 1: Explanation
 
 This solution is a very simple recursive implementation.
-If either of the lists, or, indeed, if both list are `None`,
+If either of the lists, or, indeed, if both lists are `None`,
 return the list which is not `None` or `None`. This is also
 our base case for the recursion. Otherwise, make the smaller
 value `list1`, and make the `next` property the merge of
@@ -35,7 +35,7 @@ into a linked list, however, is an `O(1)` operation.
 ### Solution 2: Explanation
 
 This solution is an iterative implementation. If either of
-the lists, or, indeed, if both list are `None`, return the
+the lists, or, indeed, if both lists are `None`, return the
 list which is not `None` or `None`. Otherwise, this solution
 attempts to integrate all nodes from `list2` into `list1`
 where `list1` is the list with the smaller initial value.
