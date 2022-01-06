@@ -8,7 +8,7 @@ The problem can be found [here](https://leetcode.com/problems/length-of-last-wor
 
 ### Solution 1: Explanation
 
-This solution uses the split function to separate the words.
+This solution uses the `split` function to separate the words.
 
 ### Solution 1: Space Complexity
 
