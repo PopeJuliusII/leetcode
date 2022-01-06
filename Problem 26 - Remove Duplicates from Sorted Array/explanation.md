@@ -12,7 +12,7 @@ This solution is simply based upon swapping the positions
 of duplicate numbers to position them all at the start of
 the list. If a number is new, then place it in the next
 available slot. If `nums` is empty, then `curr` should be
-zero, and not one. It is typically set to one, as
+zero, and not one. `curr` is otherwise set to one, as
 the first number has never been encountered before.
 
 ### Solution 1: Space Complexity
