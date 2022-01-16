@@ -16,9 +16,9 @@ as both lists are in order anyway, `nums1` would remain the same, even if we let
 
 ### Solution 1: Space Complexity
 
-`O(1)`. Only pointers are used. `nums1` is passed in with the additional space, and
-modified in-place.
+`O(1)`. Only pointers are used. `nums1` is passed in with the additional space required
+to house `nums2`, and `nums1` is modified in-place.
 
 ### Solution 1: Time Complexity
 
-`O(m + n)`, where `n` and `m` correspond to their values, respectively.
+`O(m + n)`, where `m` and `n` correspond to their values, respectively.
