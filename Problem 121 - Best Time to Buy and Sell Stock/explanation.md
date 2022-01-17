@@ -20,4 +20,4 @@ which we do with `low`, and compare it to the current value we are on.
 
 ### Solution 1: Time Complexity
 
-`O(n)`, where `n` is the length of `nums`.
+`O(n)`, where `n` is the length of `prices`.
