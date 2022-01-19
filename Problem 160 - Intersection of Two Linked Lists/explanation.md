@@ -20,8 +20,9 @@ has been found.
 
 ### Solution 1: Time Complexity
 
-`O(m + n)`, where `m` is the number of nodes in `headA`, whilst `n` is
-the number of nodes in `headB`.
+`O(m + n)`, where `m` is the number of nodes in the linked list with
+`headA` as its head, whilst `n` is the number of nodes in the linked
+list with `headB` as its head.
 
 ## Solution 2
 
@@ -33,11 +34,11 @@ Fortunately, if you are unaware of the aforementioned, I have written a
 which not only goes through similar problems in detail, but also explains the
 mathematics behind the algorithm. I recommend checking it out! Here, suffice
 it to say that if something travelling at two steps an iteration catches
-something travelling one step an iteration, we clearly have a cycle.
+something travelling at one step an iteration, we clearly have a cycle.
 If however, they never meet, that is because `tortoise` and `hare`,
 travelling from `headA`, never traverse the loop created by `final_node`.
 Finally, the modified list is restored to its original state, irrespective
-of whether an intersection is found with `final_node.next`.
+of whether an intersection is found, with `final_node.next`.
 
 ### Solution 2: Space Complexity
 
@@ -45,5 +46,6 @@ of whether an intersection is found with `final_node.next`.
 
 ### Solution 2: Time Complexity
 
-`O(m + n)`, where `m` is the number of nodes in `headA`, whilst `n` is
-the number of nodes in `headB`.
+`O(m + n)`, where `m` is the number of nodes in the linked list with
+`headA` as its head, whilst `n` is the number of nodes in the linked
+list with `headB` as its head.
