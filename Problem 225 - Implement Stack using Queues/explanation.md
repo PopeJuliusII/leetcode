@@ -10,7 +10,7 @@ The problem can be found [here](https://leetcode.com/problems/implement-stack-us
 
 This solution utilises a single queue (using `collections.deque`).
 Whilst `push` has a time complexity of `O(n)`, `pop` has a time complexity of
-`O(1)`. Whenever a number is added to `self.queue`, it placed in first position,
+`O(1)`. Whenever a number is added to `self.queue`, it is placed in first position,
 i.e. ready to be popped, by first popping every other number in `self.queue`.
 
 ### Solution 1: Space Complexity
@@ -27,7 +27,7 @@ but it would be `O(n)` on a regular list.
 
 ### Solution 2: Explanation
 
-This solution utilises a queues (using `collections.deque`) as nodes in a
+This solution utilises queues (using `collections.deque`) as nodes in a
 quasi linked list. Whenever a new item is added, it becomes the "head" of a
 new queue, and the former queue becomes the tail node. The result is something
 akin to: `[1, [2, [3]]]`. This allows for `O(1)` operations across the board,
