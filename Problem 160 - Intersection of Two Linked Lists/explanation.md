@@ -30,7 +30,7 @@ the number of nodes in `headB`.
 This solution uses Floyd's tortoise and hare cycle-finding algorithm.
 Fortunately, if you are unaware of the aforementioned, I have written a
 [Medium Article](https://medium.com/@edgar-loves-python/the-tortoise-the-hare-and-the-cyclical-linked-list-1b51acab5b?source=friends_link&sk=b8505cbe79e5b73d28c87f0b6f0ec3cf),
-which not only goes through this problem in detail, but also explains the
+which not only goes through similar problems in detail, but also explains the
 mathematics behind the algorithm. I recommend checking it out! Here, suffice
 it to say that if something travelling at two steps an iteration catches
 something travelling one step an iteration, we clearly have a cycle.
