@@ -23,7 +23,7 @@ If the twain meet, we have a palindrome. If they do not, we do not.
 
 ### Solution 2: Explanation
 
-This solution a uses `while` loop and two pointers, `left` and `right`.
+This solution uses a `while` loop and two pointers, `left` and `right`.
 If the twain meet, we have a palindrome. If they do not, we do not.
 
 ### Solution 2: Space Complexity
