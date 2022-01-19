@@ -9,7 +9,7 @@ The problem can be found [here](https://leetcode.com/problems/min-stack/).
 ### Solution 1: Explanation
 
 This solution uses two stacks to emulate a min stack's operations
-in `O(n)` time. The concept here is that we always know the smallest number,
+in `O(1)` time. The concept here is that we always know the smallest number,
 as it is at the top of `self.min_stack`. If we encounter it when popping
 from `self.stack`, we pop it, too, meaning that we now have the previous
 minimum at the top of `self.min_stack`.
