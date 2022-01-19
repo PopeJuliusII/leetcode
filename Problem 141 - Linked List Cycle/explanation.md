@@ -30,7 +30,7 @@ Fortunately, if you are unaware of the aforementioned, I have written a
 which not only goes through this problem in detail, but also explains the
 mathematics behind the algorithm. I recommend checking it out! Here, suffice
 it to say that if something travelling at two steps an iteration catches
-something travelling one step an iteration, we clearly have a cycle.
+something travelling at one step an iteration, we clearly have a cycle.
 
 ### Solution 2: Space Complexity
 
