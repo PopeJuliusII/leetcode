@@ -10,7 +10,7 @@ The problem can be found [here](https://leetcode.com/problems/happy-number/).
 
 This solution is predicated upon using a set to store numbers we have
 previously seen. This provides us with `O(1)` lookup. Here, we are
-converting the number to a string a squaring each digit to find the
+converting the number to a string and squaring each digit to find the
 next value.
 
 ### Solution 1: Space Complexity
@@ -30,7 +30,7 @@ or 1 is reached.
 This solution is predicated upon using a set to store numbers we have
 previously seen. This provides us with `O(1)` lookup. Here, we are utilising
 a helper function, `_helper`, to find the next value of `n`. It takes each digit
-in `n`, squares it, then adds it to a temporary variable, `temp`. It is
+in `n`, squares it, then adds it to a temporary variable, `temp`. `_helper` is
 also used by Solution 3.
 
 ### Solution 2: Space Complexity
@@ -53,10 +53,10 @@ Fortunately, if you are unaware of the aforementioned, I have written a
 which not only goes through similar problems in detail, but also explains the
 mathematics behind the algorithm. I recommend checking it out! Here, suffice
 it to say that if something travelling at two steps an iteration catches
-something travelling one step an iteration, we clearly have a cycle.
+something travelling at one step an iteration, we clearly have a cycle.
 Here, we are utilising a helper function, `_helper`, to find the next
 value of `n`. It takes each digit in `n`, squares it, then adds it to
-a temporary variable, `temp`. It is also used by Solution 2.
+a temporary variable, `temp`. `_helper` is also used by Solution 2.
 
 ### Solution 3: Space Complexity
 
