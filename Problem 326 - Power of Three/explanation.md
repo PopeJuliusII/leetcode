@@ -31,7 +31,8 @@ as a commented out line so that you can see. [Here](https://bugs.python.org/issu
 is an explanation, but, basically, `log(n, 3)` is just
 doing `log10(n) / log10(3)` under the hood anyway;
 doing so explicitly, however, leads to numbers precise enough
-to use `% 1` on. If you know nothing about `log`, my apologies.
+to use `% 1` on. [This link will tell you more.](https://bugs.python.org/issue3724)
+If you know nothing about `log`, my apologies.
 In essence, `log(x, base)`, i.e. log base `base` of `x`, means how
 to what power must I raise `base` to get `x`? Therefore, `log(100, 10)`
 equals `2`. There's more to it than that, but `log` is outside the
