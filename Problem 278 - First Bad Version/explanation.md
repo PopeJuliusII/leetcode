@@ -8,7 +8,7 @@ The problem can be found [here](https://leetcode.com/problems/first-bad-version/
 
 ### Solution 1: Explanation
 
-This solution implements a variation on binary search.
+This solution implements a variation of binary search.
 Note two things - a bad version always exists, and `right`
 always points to a bad version. The original search
 space is covered by [`left`, `right`]. If `mid` is
