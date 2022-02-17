@@ -8,7 +8,7 @@ The problem can be found [here](https://leetcode.com/problems/range-sum-query-im
 
 ### Solution 1: Explanation
 
-This solution is uses a prefix array to determine
+This solution uses a prefix array to determine
 the sum between two points. Essentially, if
 you know the sum from indices 0 to x and 0 to y,
 and x < y, then you can compute the sum between
