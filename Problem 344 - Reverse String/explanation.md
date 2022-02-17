@@ -28,7 +28,7 @@ faster. Run a loop of 100,000 with lists from 1 to 100.
 Although this is not an appropriate answer to give when
 asked this question, I have included it as a brief
 reminder that built-in methods may be significantly
-faster than our replication of them.
+faster than our own implementation of them.
 
 ### Solution 2: Space Complexity
 
