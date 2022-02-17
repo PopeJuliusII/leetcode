@@ -37,18 +37,18 @@ string by using two pointers to reverse only the vowels.
 
 ### Solution 2: Space Complexity
 
-`O(1)`. I would argue that the time complexity is `O(1)`.
+`O(1)`. I would argue that the space complexity is `O(1)`.
 The use of the `vowel_set` is `O(1)`, as it does not increase,
 irrespective of the size of `s`. I would also argue that
-the return objects size should not be included. This is because,
+the return object's size should not be included. This is because,
 otherwise, the space complexity would be meaningless. Contrast
 this solution with Solution 1. There, we create a new list in memory
 and a new string (`"".join`, last line). Here, we are only creating
-a new string. As stings in Python are immutable, I would argue that
+a new string. As strings in Python are immutable, I would argue that
 this solution should be labelled `O(1)`, but I understand why others
 may state that `ans` makes it an `O(n)` solution.
 
 ### Solution 2: Time Complexity
 
 `O(n)`, where `n` is the length of `s`. This is because we have to
-traverse the list once, via the `for` loop.
+traverse the string once, via the `for` loop.
