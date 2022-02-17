@@ -15,7 +15,7 @@ four stones, and it is your turn, you may remove 1, 2, or 3.
 Irrespective of how many you remove, the opponent will remove
 the remainder. If it is your turn and there are more than 4 stones,
 say 5, 6, or 7, you can make the opponent have 4 stones left
-on the opponent's turn. However, if you there are 8 stones and it
+on the opponent's turn. However, if there are 8 stones and it
 is your turn, the opponent will make you have to pull from 4 stones
 when it is next your turn. Therefore, if the number of stones on
 your turn is 4, you're out of luck. Otherwise, you win!
